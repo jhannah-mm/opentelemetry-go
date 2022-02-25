@@ -29,6 +29,7 @@ import (
 	"sync"
 	"time"
 
+	"github.com/jhannah-mm/opentelemetry-go/internal/global"
 	"google.golang.org/protobuf/proto"
 
 	"go.opentelemetry.io/otel/exporters/otlp/internal/retry"
