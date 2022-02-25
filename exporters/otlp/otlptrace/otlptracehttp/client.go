@@ -13,7 +13,7 @@
 // limitations under the License.
 
 //package otlptracehttp // import "go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracehttp"
-package "github.com/jhannah-mm/opentelemetry-go/otel/exporters/otlp/otlptrace/otlptracehttp"
+package "github.com/jhannah-mm/opentelemetry-go/exporters/otlp/otlptrace/otlptracehttp"
 
 import (
 	"bytes"
