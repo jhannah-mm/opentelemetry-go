@@ -27,7 +27,8 @@ import (
 
 	"go.opentelemetry.io/otel/exporters/otlp/otlptrace"
 	"go.opentelemetry.io/otel/exporters/otlp/otlptrace/internal/otlptracetest"
-	"go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracehttp"
+	//"go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracehttp"
+  "github.com/jhannah-mm/opentelemetry-go/exporters/otlp/otlptrace/otlptracehttp"
 )
 
 const (
