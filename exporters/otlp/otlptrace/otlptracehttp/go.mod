@@ -1,4 +1,4 @@
-module go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracehttp
+module github.com/jhannah-mm/opentelemetry-go/exporters/otlp/otlptrace/otlptracehttp
 
 go 1.17
 
