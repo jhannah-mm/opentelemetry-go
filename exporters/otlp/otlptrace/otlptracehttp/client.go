@@ -12,7 +12,8 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package otlptracehttp // import "go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracehttp"
+//package otlptracehttp // import "go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracehttp"
+package "github.com/jhannah-mm/opentelemetry-go/otel/exporters/otlp/otlptrace/otlptracehttp"
 
 import (
 	"bytes"
@@ -158,24 +159,30 @@ func (d *client) UploadTraces(ctx context.Context, protoSpans []*tracepb.Resourc
 		var rErr error
 		switch resp.StatusCode {
 		case http.StatusOK:
+			global.Debug("JAY0 received OK from Sumologic")
 			// Success, do not retry.
 		case http.StatusTooManyRequests,
 			http.StatusServiceUnavailable:
+			global.Debug("JAY1 received", resp.StatusCode, "from Sumologic")
 			// Retry-able failure.
 			rErr = newResponseError(resp.Header)
 
 			// Going to retry, drain the body to reuse the connection.
 			if _, err := io.Copy(ioutil.Discard, resp.Body); err != nil {
 				_ = resp.Body.Close()
+      	global.Debug("JAY2", err)
 				return err
 			}
 		default:
 			rErr = fmt.Errorf("failed to send %s to %s: %s", d.name, request.URL, resp.Status)
+      global.Debug("JAY3", rErr)
 		}
 
 		if err := resp.Body.Close(); err != nil {
+      global.Debug("JAY4", err)
 			return err
 		}
+    global.Debug("JAY5", rErr)
 		return rErr
 	})
 }
