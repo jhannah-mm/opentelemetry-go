@@ -1,4 +1,4 @@
-module go.opentelemetry.io/otel/exporters/otlp/otlptrace
+module github.com/jhannah-mm/opentelemetry-go
 
 go 1.16
 
@@ -14,7 +14,7 @@ require (
 	google.golang.org/protobuf v1.27.1
 )
 
-replace go.opentelemetry.io/otel => ../../..
+replace go.opentelemetry.io/otel => github.com/jhannah-mm/opentelemetry-go
 
 replace go.opentelemetry.io/otel/sdk => ../../../sdk
 
