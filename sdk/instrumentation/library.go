@@ -19,7 +19,7 @@ passed to both the OpenTelemetry Tracer and Meter components.
 For more information see
 [this](https://github.com/open-telemetry/oteps/blob/main/text/0083-component.md).
 */
-package instrumentation // import "go.opentelemetry.io/otel/sdk/instrumentation"
+package instrumentation // import "github.com/jhannah-mm/opentelemetry-go/sdk/instrumentation"
 
 // Library represents the instrumentation library.
 type Library struct {

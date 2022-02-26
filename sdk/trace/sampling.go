@@ -12,15 +12,15 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package trace // import "go.opentelemetry.io/otel/sdk/trace"
+package trace // import "github.com/jhannah-mm/opentelemetry-go/sdk/trace"
 
 import (
 	"context"
 	"encoding/binary"
 	"fmt"
 
-	"go.opentelemetry.io/otel/attribute"
-	"go.opentelemetry.io/otel/trace"
+	"github.com/jhannah-mm/opentelemetry-go/attribute"
+	"github.com/jhannah-mm/opentelemetry-go/trace"
 )
 
 // Sampler decides whether a trace should be sampled and exported.

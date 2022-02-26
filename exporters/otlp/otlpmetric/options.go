@@ -12,9 +12,9 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package otlpmetric // import "go.opentelemetry.io/otel/exporters/otlp/otlpmetric"
+package otlpmetric // import "github.com/jhannah-mm/opentelemetry-go/exporters/otlp/otlpmetric"
 
-import "go.opentelemetry.io/otel/sdk/metric/export/aggregation"
+import "github.com/jhannah-mm/opentelemetry-go/sdk/metric/export/aggregation"
 
 // Option are setting options passed to an Exporter on creation.
 type Option interface {

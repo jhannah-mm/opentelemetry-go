@@ -12,14 +12,14 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package basic // import "go.opentelemetry.io/otel/sdk/metric/controller/basic"
+package basic // import "github.com/jhannah-mm/opentelemetry-go/sdk/metric/controller/basic"
 
 import (
 	"time"
 
-	"go.opentelemetry.io/otel"
-	"go.opentelemetry.io/otel/sdk/metric/export"
-	"go.opentelemetry.io/otel/sdk/resource"
+	"github.com/jhannah-mm/opentelemetry-go"
+	"github.com/jhannah-mm/opentelemetry-go/sdk/metric/export"
+	"github.com/jhannah-mm/opentelemetry-go/sdk/resource"
 )
 
 // config contains configuration for a basic Controller.

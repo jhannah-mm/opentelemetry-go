@@ -12,14 +12,14 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package trace // import "go.opentelemetry.io/otel/sdk/trace"
+package trace // import "github.com/jhannah-mm/opentelemetry-go/sdk/trace"
 
 import (
 	"context"
 	"time"
 
-	"go.opentelemetry.io/otel/sdk/instrumentation"
-	"go.opentelemetry.io/otel/trace"
+	"github.com/jhannah-mm/opentelemetry-go/sdk/instrumentation"
+	"github.com/jhannah-mm/opentelemetry-go/trace"
 )
 
 type tracer struct {

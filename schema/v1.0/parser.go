@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package schema // import "go.opentelemetry.io/otel/schema/v1.0"
+package schema // import "github.com/jhannah-mm/opentelemetry-go/schema/v1.0"
 
 import (
 	"fmt"
@@ -25,7 +25,7 @@ import (
 	"github.com/Masterminds/semver/v3"
 	"gopkg.in/yaml.v2"
 
-	"go.opentelemetry.io/otel/schema/v1.0/ast"
+	"github.com/jhannah-mm/opentelemetry-go/schema/v1.0/ast"
 )
 
 // Major file version number that this library supports.

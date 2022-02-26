@@ -29,12 +29,12 @@ import (
 	"go.opencensus.io/tag"
 	octrace "go.opencensus.io/trace"
 
-	"go.opentelemetry.io/otel"
-	"go.opentelemetry.io/otel/bridge/opencensus"
-	"go.opentelemetry.io/otel/exporters/stdout/stdoutmetric"
-	"go.opentelemetry.io/otel/exporters/stdout/stdouttrace"
-	"go.opentelemetry.io/otel/sdk/metric/export"
-	sdktrace "go.opentelemetry.io/otel/sdk/trace"
+	"github.com/jhannah-mm/opentelemetry-go"
+	"github.com/jhannah-mm/opentelemetry-go/bridge/opencensus"
+	"github.com/jhannah-mm/opentelemetry-go/exporters/stdout/stdoutmetric"
+	"github.com/jhannah-mm/opentelemetry-go/exporters/stdout/stdouttrace"
+	"github.com/jhannah-mm/opentelemetry-go/sdk/metric/export"
+	sdktrace "github.com/jhannah-mm/opentelemetry-go/sdk/trace"
 )
 
 var (

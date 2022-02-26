@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package jaeger // import "go.opentelemetry.io/otel/exporters/jaeger"
+package jaeger // import "github.com/jhannah-mm/opentelemetry-go/exporters/jaeger"
 
 import (
 	"context"
@@ -23,9 +23,9 @@ import (
 	"strings"
 	"time"
 
-	genAgent "go.opentelemetry.io/otel/exporters/jaeger/internal/gen-go/agent"
-	gen "go.opentelemetry.io/otel/exporters/jaeger/internal/gen-go/jaeger"
-	"go.opentelemetry.io/otel/exporters/jaeger/internal/third_party/thrift/lib/go/thrift"
+	genAgent "github.com/jhannah-mm/opentelemetry-go/exporters/jaeger/internal/gen-go/agent"
+	gen "github.com/jhannah-mm/opentelemetry-go/exporters/jaeger/internal/gen-go/jaeger"
+	"github.com/jhannah-mm/opentelemetry-go/exporters/jaeger/internal/third_party/thrift/lib/go/thrift"
 )
 
 const (

@@ -13,12 +13,12 @@
 // limitations under the License.
 
 // Package noop provides noop tracing implementations for tracer and span.
-package noop // import "go.opentelemetry.io/otel/internal/trace/noop"
+package noop // import "github.com/jhannah-mm/opentelemetry-go/internal/trace/noop"
 
 import (
 	"context"
 
-	"go.opentelemetry.io/otel/trace"
+	"github.com/jhannah-mm/opentelemetry-go/trace"
 )
 
 var (

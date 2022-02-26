@@ -17,7 +17,7 @@ package global
 import (
 	"testing"
 
-	"go.opentelemetry.io/otel/metric"
+	"github.com/jhannah-mm/opentelemetry-go/metric"
 )
 
 type testMeterProvider struct{}

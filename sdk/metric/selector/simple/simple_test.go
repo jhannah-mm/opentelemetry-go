@@ -19,15 +19,15 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"go.opentelemetry.io/otel/metric/metrictest"
-	"go.opentelemetry.io/otel/metric/number"
-	"go.opentelemetry.io/otel/metric/sdkapi"
-	"go.opentelemetry.io/otel/sdk/metric/aggregator"
-	"go.opentelemetry.io/otel/sdk/metric/aggregator/histogram"
-	"go.opentelemetry.io/otel/sdk/metric/aggregator/lastvalue"
-	"go.opentelemetry.io/otel/sdk/metric/aggregator/sum"
-	"go.opentelemetry.io/otel/sdk/metric/export"
-	"go.opentelemetry.io/otel/sdk/metric/selector/simple"
+	"github.com/jhannah-mm/opentelemetry-go/metric/metrictest"
+	"github.com/jhannah-mm/opentelemetry-go/metric/number"
+	"github.com/jhannah-mm/opentelemetry-go/metric/sdkapi"
+	"github.com/jhannah-mm/opentelemetry-go/sdk/metric/aggregator"
+	"github.com/jhannah-mm/opentelemetry-go/sdk/metric/aggregator/histogram"
+	"github.com/jhannah-mm/opentelemetry-go/sdk/metric/aggregator/lastvalue"
+	"github.com/jhannah-mm/opentelemetry-go/sdk/metric/aggregator/sum"
+	"github.com/jhannah-mm/opentelemetry-go/sdk/metric/export"
+	"github.com/jhannah-mm/opentelemetry-go/sdk/metric/selector/simple"
 )
 
 var (

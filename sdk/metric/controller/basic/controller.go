@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package basic // import "go.opentelemetry.io/otel/sdk/metric/controller/basic"
+package basic // import "github.com/jhannah-mm/opentelemetry-go/sdk/metric/controller/basic"
 
 import (
 	"context"
@@ -20,14 +20,14 @@ import (
 	"sync"
 	"time"
 
-	"go.opentelemetry.io/otel"
-	"go.opentelemetry.io/otel/internal/metric/registry"
-	"go.opentelemetry.io/otel/metric"
-	"go.opentelemetry.io/otel/sdk/instrumentation"
-	sdk "go.opentelemetry.io/otel/sdk/metric"
-	controllerTime "go.opentelemetry.io/otel/sdk/metric/controller/time"
-	"go.opentelemetry.io/otel/sdk/metric/export"
-	"go.opentelemetry.io/otel/sdk/resource"
+	"github.com/jhannah-mm/opentelemetry-go"
+	"github.com/jhannah-mm/opentelemetry-go/internal/metric/registry"
+	"github.com/jhannah-mm/opentelemetry-go/metric"
+	"github.com/jhannah-mm/opentelemetry-go/sdk/instrumentation"
+	sdk "github.com/jhannah-mm/opentelemetry-go/sdk/metric"
+	controllerTime "github.com/jhannah-mm/opentelemetry-go/sdk/metric/controller/time"
+	"github.com/jhannah-mm/opentelemetry-go/sdk/metric/export"
+	"github.com/jhannah-mm/opentelemetry-go/sdk/resource"
 )
 
 // DefaultPeriod is used for:

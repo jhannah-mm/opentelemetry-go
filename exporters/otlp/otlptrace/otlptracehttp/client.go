@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package otlptracehttp // import "go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracehttp"
+package otlptracehttp // import "github.com/jhannah-mm/opentelemetry-go/exporters/otlp/otlptrace/otlptracehttp"
 
 import (
 	"bytes"
@@ -30,9 +30,9 @@ import (
 
 	"google.golang.org/protobuf/proto"
 
-	"go.opentelemetry.io/otel/exporters/otlp/internal/retry"
-	"go.opentelemetry.io/otel/exporters/otlp/otlptrace"
-	"go.opentelemetry.io/otel/exporters/otlp/otlptrace/internal/otlpconfig"
+	"github.com/jhannah-mm/opentelemetry-go/exporters/otlp/internal/retry"
+	"github.com/jhannah-mm/opentelemetry-go/exporters/otlp/otlptrace"
+	"github.com/jhannah-mm/opentelemetry-go/exporters/otlp/otlptrace/internal/otlpconfig"
 	coltracepb "go.opentelemetry.io/proto/otlp/collector/trace/v1"
 	tracepb "go.opentelemetry.io/proto/otlp/trace/v1"
 )

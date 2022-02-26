@@ -12,17 +12,17 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package controllertest // import "go.opentelemetry.io/otel/sdk/metric/controller/controllertest"
+package controllertest // import "github.com/jhannah-mm/opentelemetry-go/sdk/metric/controller/controllertest"
 
 import (
 	"time"
 
 	"github.com/benbjohnson/clock"
 
-	"go.opentelemetry.io/otel/sdk/instrumentation"
-	controllerTime "go.opentelemetry.io/otel/sdk/metric/controller/time"
-	"go.opentelemetry.io/otel/sdk/metric/export"
-	"go.opentelemetry.io/otel/sdk/metric/export/aggregation"
+	"github.com/jhannah-mm/opentelemetry-go/sdk/instrumentation"
+	controllerTime "github.com/jhannah-mm/opentelemetry-go/sdk/metric/controller/time"
+	"github.com/jhannah-mm/opentelemetry-go/sdk/metric/export"
+	"github.com/jhannah-mm/opentelemetry-go/sdk/metric/export/aggregation"
 )
 
 type MockClock struct {

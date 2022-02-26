@@ -12,11 +12,11 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package global // import "go.opentelemetry.io/otel/metric/global"
+package global // import "github.com/jhannah-mm/opentelemetry-go/metric/global"
 
 import (
-	"go.opentelemetry.io/otel/internal/metric/global"
-	"go.opentelemetry.io/otel/metric"
+	"github.com/jhannah-mm/opentelemetry-go/internal/metric/global"
+	"github.com/jhannah-mm/opentelemetry-go/metric"
 )
 
 // Meter creates an implementation of the Meter interface from the global

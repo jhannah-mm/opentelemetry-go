@@ -19,7 +19,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"go.opentelemetry.io/otel/metric/sdkapi"
+	"github.com/jhannah-mm/opentelemetry-go/metric/sdkapi"
 )
 
 func TestInstrumentKinds(t *testing.T) {

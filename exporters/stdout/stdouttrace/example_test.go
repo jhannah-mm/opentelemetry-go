@@ -18,12 +18,12 @@ import (
 	"context"
 	"log"
 
-	"go.opentelemetry.io/otel"
-	"go.opentelemetry.io/otel/exporters/stdout/stdouttrace"
-	"go.opentelemetry.io/otel/sdk/resource"
-	sdktrace "go.opentelemetry.io/otel/sdk/trace"
-	semconv "go.opentelemetry.io/otel/semconv/v1.7.0"
-	"go.opentelemetry.io/otel/trace"
+	"github.com/jhannah-mm/opentelemetry-go"
+	"github.com/jhannah-mm/opentelemetry-go/exporters/stdout/stdouttrace"
+	"github.com/jhannah-mm/opentelemetry-go/sdk/resource"
+	sdktrace "github.com/jhannah-mm/opentelemetry-go/sdk/trace"
+	semconv "github.com/jhannah-mm/opentelemetry-go/semconv/v1.7.0"
+	"github.com/jhannah-mm/opentelemetry-go/trace"
 )
 
 const (

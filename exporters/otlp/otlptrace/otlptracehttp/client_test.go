@@ -25,9 +25,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"go.opentelemetry.io/otel/exporters/otlp/otlptrace"
-	"go.opentelemetry.io/otel/exporters/otlp/otlptrace/internal/otlptracetest"
-	"go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracehttp"
+	"github.com/jhannah-mm/opentelemetry-go/exporters/otlp/otlptrace"
+	"github.com/jhannah-mm/opentelemetry-go/exporters/otlp/otlptrace/internal/otlptracetest"
+	"github.com/jhannah-mm/opentelemetry-go/exporters/otlp/otlptrace/otlptracehttp"
 )
 
 const (

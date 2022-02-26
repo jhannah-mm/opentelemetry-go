@@ -12,11 +12,11 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package trace // import "go.opentelemetry.io/otel/sdk/trace"
+package trace // import "github.com/jhannah-mm/opentelemetry-go/sdk/trace"
 
 import (
-	"go.opentelemetry.io/otel/attribute"
-	"go.opentelemetry.io/otel/trace"
+	"github.com/jhannah-mm/opentelemetry-go/attribute"
+	"github.com/jhannah-mm/opentelemetry-go/trace"
 )
 
 // Link is the relationship between two Spans. The relationship can be within

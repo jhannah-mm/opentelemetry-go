@@ -12,12 +12,12 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package resource // import "go.opentelemetry.io/otel/sdk/resource"
+package resource // import "github.com/jhannah-mm/opentelemetry-go/sdk/resource"
 
 import (
 	"context"
 
-	"go.opentelemetry.io/otel/attribute"
+	"github.com/jhannah-mm/opentelemetry-go/attribute"
 )
 
 // config contains configuration for Resource creation.

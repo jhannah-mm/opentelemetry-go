@@ -12,20 +12,20 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package aggregation // import "go.opentelemetry.io/otel/sdk/export/metric/aggregation"
+package aggregation // import "github.com/jhannah-mm/opentelemetry-go/sdk/export/metric/aggregation"
 
 import (
-	"go.opentelemetry.io/otel/metric/number"
-	"go.opentelemetry.io/otel/sdk/metric/export/aggregation"
+	"github.com/jhannah-mm/opentelemetry-go/metric/number"
+	"github.com/jhannah-mm/opentelemetry-go/sdk/metric/export/aggregation"
 )
 
-// Deprecated: use module "go.opentelemetry.io/otel/sdk/metric/export/aggregation"
+// Deprecated: use module "github.com/jhannah-mm/opentelemetry-go/sdk/metric/export/aggregation"
 type Aggregation = aggregation.Aggregation
 
-// Deprecated: use module "go.opentelemetry.io/otel/sdk/metric/export/aggregation"
+// Deprecated: use module "github.com/jhannah-mm/opentelemetry-go/sdk/metric/export/aggregation"
 type Sum = aggregation.Sum
 
-// Deprecated: use module "go.opentelemetry.io/otel/sdk/metric/export/aggregation"
+// Deprecated: use module "github.com/jhannah-mm/opentelemetry-go/sdk/metric/export/aggregation"
 type Count = aggregation.Count
 
 // Deprecated: Will be removed soon.
@@ -40,38 +40,38 @@ type Max interface {
 	Max() (number.Number, error)
 }
 
-// Deprecated: use module "go.opentelemetry.io/otel/sdk/metric/export/aggregation"
+// Deprecated: use module "github.com/jhannah-mm/opentelemetry-go/sdk/metric/export/aggregation"
 type LastValue = aggregation.LastValue
 
-// Deprecated: use module "go.opentelemetry.io/otel/sdk/metric/export/aggregation"
+// Deprecated: use module "github.com/jhannah-mm/opentelemetry-go/sdk/metric/export/aggregation"
 type Buckets = aggregation.Buckets
 
-// Deprecated: use module "go.opentelemetry.io/otel/sdk/metric/export/aggregation"
+// Deprecated: use module "github.com/jhannah-mm/opentelemetry-go/sdk/metric/export/aggregation"
 type Histogram = aggregation.Histogram
 
-// Deprecated: use module "go.opentelemetry.io/otel/sdk/metric/export/aggregation"
+// Deprecated: use module "github.com/jhannah-mm/opentelemetry-go/sdk/metric/export/aggregation"
 type Kind = aggregation.Kind
 
 const (
-	// Deprecated: use module "go.opentelemetry.io/otel/sdk/metric/export/aggregation"
+	// Deprecated: use module "github.com/jhannah-mm/opentelemetry-go/sdk/metric/export/aggregation"
 	SumKind = aggregation.SumKind
-	// Deprecated: use module "go.opentelemetry.io/otel/sdk/metric/export/aggregation"
+	// Deprecated: use module "github.com/jhannah-mm/opentelemetry-go/sdk/metric/export/aggregation"
 	HistogramKind = aggregation.HistogramKind
-	// Deprecated: use module "go.opentelemetry.io/otel/sdk/metric/export/aggregation"
+	// Deprecated: use module "github.com/jhannah-mm/opentelemetry-go/sdk/metric/export/aggregation"
 	LastValueKind = aggregation.LastValueKind
 )
 
 var (
-	// Deprecated: use module "go.opentelemetry.io/otel/sdk/metric/export/aggregation"
+	// Deprecated: use module "github.com/jhannah-mm/opentelemetry-go/sdk/metric/export/aggregation"
 	ErrNegativeInput = aggregation.ErrNegativeInput
-	// Deprecated: use module "go.opentelemetry.io/otel/sdk/metric/export/aggregation"
+	// Deprecated: use module "github.com/jhannah-mm/opentelemetry-go/sdk/metric/export/aggregation"
 	ErrNaNInput = aggregation.ErrNaNInput
-	// Deprecated: use module "go.opentelemetry.io/otel/sdk/metric/export/aggregation"
+	// Deprecated: use module "github.com/jhannah-mm/opentelemetry-go/sdk/metric/export/aggregation"
 	ErrInconsistentType = aggregation.ErrInconsistentType
 
-	// Deprecated: use module "go.opentelemetry.io/otel/sdk/metric/export/aggregation"
+	// Deprecated: use module "github.com/jhannah-mm/opentelemetry-go/sdk/metric/export/aggregation"
 	ErrNoCumulativeToDelta = aggregation.ErrNoCumulativeToDelta
 
-	// Deprecated: use module "go.opentelemetry.io/otel/sdk/metric/export/aggregation"
+	// Deprecated: use module "github.com/jhannah-mm/opentelemetry-go/sdk/metric/export/aggregation"
 	ErrNoData = aggregation.ErrNoData
 )

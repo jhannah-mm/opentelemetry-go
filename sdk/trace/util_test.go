@@ -17,7 +17,7 @@ package trace_test
 import (
 	"testing"
 
-	sdktrace "go.opentelemetry.io/otel/sdk/trace"
+	sdktrace "github.com/jhannah-mm/opentelemetry-go/sdk/trace"
 )
 
 func basicTracerProvider(t *testing.T) *sdktrace.TracerProvider {

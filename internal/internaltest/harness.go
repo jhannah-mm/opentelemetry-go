@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package internaltest // import "go.opentelemetry.io/otel/internal/internaltest"
+package internaltest // import "github.com/jhannah-mm/opentelemetry-go/internal/internaltest"
 
 import (
 	"context"
@@ -21,10 +21,10 @@ import (
 	"testing"
 	"time"
 
-	"go.opentelemetry.io/otel/attribute"
-	"go.opentelemetry.io/otel/codes"
-	"go.opentelemetry.io/otel/internal/matchers"
-	"go.opentelemetry.io/otel/trace"
+	"github.com/jhannah-mm/opentelemetry-go/attribute"
+	"github.com/jhannah-mm/opentelemetry-go/codes"
+	"github.com/jhannah-mm/opentelemetry-go/internal/matchers"
+	"github.com/jhannah-mm/opentelemetry-go/trace"
 )
 
 // Harness is a testing harness used to test implementations of the

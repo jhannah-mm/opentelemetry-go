@@ -12,18 +12,18 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package internal // import "go.opentelemetry.io/otel/bridge/opencensus/internal"
+package internal // import "github.com/jhannah-mm/opentelemetry-go/bridge/opencensus/internal"
 
 import (
 	"fmt"
 
 	octrace "go.opencensus.io/trace"
 
-	"go.opentelemetry.io/otel/attribute"
-	"go.opentelemetry.io/otel/bridge/opencensus/internal/oc2otel"
-	"go.opentelemetry.io/otel/bridge/opencensus/internal/otel2oc"
-	"go.opentelemetry.io/otel/codes"
-	"go.opentelemetry.io/otel/trace"
+	"github.com/jhannah-mm/opentelemetry-go/attribute"
+	"github.com/jhannah-mm/opentelemetry-go/bridge/opencensus/internal/oc2otel"
+	"github.com/jhannah-mm/opentelemetry-go/bridge/opencensus/internal/otel2oc"
+	"github.com/jhannah-mm/opentelemetry-go/codes"
+	"github.com/jhannah-mm/opentelemetry-go/trace"
 )
 
 const (

@@ -24,7 +24,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"go.opentelemetry.io/otel/sdk/resource"
+	"github.com/jhannah-mm/opentelemetry-go/sdk/resource"
 )
 
 var (

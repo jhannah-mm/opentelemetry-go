@@ -14,10 +14,10 @@
 
 //go:generate stringer -type=Temporality
 
-package aggregation // import "go.opentelemetry.io/otel/sdk/metric/export/aggregation"
+package aggregation // import "github.com/jhannah-mm/opentelemetry-go/sdk/metric/export/aggregation"
 
 import (
-	"go.opentelemetry.io/otel/metric/sdkapi"
+	"github.com/jhannah-mm/opentelemetry-go/metric/sdkapi"
 )
 
 // Temporality indicates the temporal aggregation exported by an exporter.

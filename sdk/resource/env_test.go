@@ -22,9 +22,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"go.opentelemetry.io/otel/attribute"
-	ottest "go.opentelemetry.io/otel/internal/internaltest"
-	semconv "go.opentelemetry.io/otel/semconv/v1.7.0"
+	"github.com/jhannah-mm/opentelemetry-go/attribute"
+	ottest "github.com/jhannah-mm/opentelemetry-go/internal/internaltest"
+	semconv "github.com/jhannah-mm/opentelemetry-go/semconv/v1.7.0"
 )
 
 func TestDetectOnePair(t *testing.T) {

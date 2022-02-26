@@ -12,15 +12,15 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package trace // import "go.opentelemetry.io/otel/sdk/trace"
+package trace // import "github.com/jhannah-mm/opentelemetry-go/sdk/trace"
 
 import (
 	"time"
 
-	"go.opentelemetry.io/otel/attribute"
-	"go.opentelemetry.io/otel/sdk/instrumentation"
-	"go.opentelemetry.io/otel/sdk/resource"
-	"go.opentelemetry.io/otel/trace"
+	"github.com/jhannah-mm/opentelemetry-go/attribute"
+	"github.com/jhannah-mm/opentelemetry-go/sdk/instrumentation"
+	"github.com/jhannah-mm/opentelemetry-go/sdk/resource"
+	"github.com/jhannah-mm/opentelemetry-go/trace"
 )
 
 // snapshot is an record of a spans state at a particular checkpointed time.

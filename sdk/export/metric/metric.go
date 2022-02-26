@@ -12,57 +12,57 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package metric // import "go.opentelemetry.io/otel/sdk/export/metric"
+package metric // import "github.com/jhannah-mm/opentelemetry-go/sdk/export/metric"
 
 import (
 	"time"
 
-	"go.opentelemetry.io/otel/attribute"
-	"go.opentelemetry.io/otel/metric/sdkapi"
-	"go.opentelemetry.io/otel/sdk/metric/aggregator"
-	"go.opentelemetry.io/otel/sdk/metric/export"
-	"go.opentelemetry.io/otel/sdk/metric/export/aggregation"
+	"github.com/jhannah-mm/opentelemetry-go/attribute"
+	"github.com/jhannah-mm/opentelemetry-go/metric/sdkapi"
+	"github.com/jhannah-mm/opentelemetry-go/sdk/metric/aggregator"
+	"github.com/jhannah-mm/opentelemetry-go/sdk/metric/export"
+	"github.com/jhannah-mm/opentelemetry-go/sdk/metric/export/aggregation"
 )
 
-// Deprecated: use module "go.opentelemetry.io/otel/sdk/metric/export"
+// Deprecated: use module "github.com/jhannah-mm/opentelemetry-go/sdk/metric/export"
 type Accumulation = export.Accumulation
 
-// Deprecated: use module "go.opentelemetry.io/otel/sdk/metric/aggregator"
+// Deprecated: use module "github.com/jhannah-mm/opentelemetry-go/sdk/metric/aggregator"
 type Aggregator = aggregator.Aggregator
 
-// Deprecated: use module "go.opentelemetry.io/otel/sdk/metric/export"
+// Deprecated: use module "github.com/jhannah-mm/opentelemetry-go/sdk/metric/export"
 type AggregatorSelector = export.AggregatorSelector
 
-// Deprecated: use module "go.opentelemetry.io/otel/sdk/metric/export"
+// Deprecated: use module "github.com/jhannah-mm/opentelemetry-go/sdk/metric/export"
 type Checkpointer = export.Checkpointer
 
-// Deprecated: use module "go.opentelemetry.io/otel/sdk/metric/export"
+// Deprecated: use module "github.com/jhannah-mm/opentelemetry-go/sdk/metric/export"
 type CheckpointerFactory = export.CheckpointerFactory
 
-// Deprecated: use module "go.opentelemetry.io/otel/sdk/metric/export"
+// Deprecated: use module "github.com/jhannah-mm/opentelemetry-go/sdk/metric/export"
 type Exporter = export.Exporter
 
-// Deprecated: use module "go.opentelemetry.io/otel/sdk/metric/export"
+// Deprecated: use module "github.com/jhannah-mm/opentelemetry-go/sdk/metric/export"
 type InstrumentationLibraryReader = export.Exporter
 
-// Deprecated: use module "go.opentelemetry.io/otel/sdk/metric/export"
+// Deprecated: use module "github.com/jhannah-mm/opentelemetry-go/sdk/metric/export"
 type Metadata = export.Metadata
 
-// Deprecated: use module "go.opentelemetry.io/otel/sdk/metric/export"
+// Deprecated: use module "github.com/jhannah-mm/opentelemetry-go/sdk/metric/export"
 type Processor = export.Processor
 
-// Deprecated: use module "go.opentelemetry.io/otel/sdk/metric/export"
+// Deprecated: use module "github.com/jhannah-mm/opentelemetry-go/sdk/metric/export"
 type Reader = export.Reader
 
-// Deprecated: use module "go.opentelemetry.io/otel/sdk/metric/export"
+// Deprecated: use module "github.com/jhannah-mm/opentelemetry-go/sdk/metric/export"
 type Record = export.Record
 
-// Deprecated: use module "go.opentelemetry.io/otel/sdk/metric/export"
+// Deprecated: use module "github.com/jhannah-mm/opentelemetry-go/sdk/metric/export"
 func NewAccumulation(descriptor *sdkapi.Descriptor, labels *attribute.Set, aggregator Aggregator) Accumulation {
 	return export.NewAccumulation(descriptor, labels, aggregator)
 }
 
-// Deprecated: use module "go.opentelemetry.io/otel/sdk/metric/export"
+// Deprecated: use module "github.com/jhannah-mm/opentelemetry-go/sdk/metric/export"
 func NewRecord(descriptor *sdkapi.Descriptor, labels *attribute.Set, aggregation aggregation.Aggregation, start, end time.Time) Record {
 	return export.NewRecord(descriptor, labels, aggregation, start, end)
 }

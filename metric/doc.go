@@ -61,7 +61,7 @@ library.
 
 Instrumentation should be designed to accept a MeterProvider from which it can
 create its own unique Meter. Alternatively, the registered global
-MeterProvider from the go.opentelemetry.io/otel package can be used as a
+MeterProvider from the github.com/jhannah-mm/opentelemetry-go package can be used as a
 default.
 */
-package metric // import "go.opentelemetry.io/otel/metric"
+package metric // import "github.com/jhannah-mm/opentelemetry-go/metric"

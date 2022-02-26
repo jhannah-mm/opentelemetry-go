@@ -13,4 +13,4 @@
 // limitations under the License.
 
 // Package attribute provides key and value attributes.
-package attribute // import "go.opentelemetry.io/otel/attribute"
+package attribute // import "github.com/jhannah-mm/opentelemetry-go/attribute"

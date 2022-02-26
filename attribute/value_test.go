@@ -19,7 +19,7 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	"go.opentelemetry.io/otel/attribute"
+	"github.com/jhannah-mm/opentelemetry-go/attribute"
 )
 
 func TestValue(t *testing.T) {

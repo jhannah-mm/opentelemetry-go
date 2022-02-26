@@ -12,11 +12,11 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package metrictransform // import "go.opentelemetry.io/otel/exporters/otlp/otlpmetric/internal/metrictransform"
+package metrictransform // import "github.com/jhannah-mm/opentelemetry-go/exporters/otlp/otlpmetric/internal/metrictransform"
 
 import (
-	"go.opentelemetry.io/otel/attribute"
-	"go.opentelemetry.io/otel/sdk/resource"
+	"github.com/jhannah-mm/opentelemetry-go/attribute"
+	"github.com/jhannah-mm/opentelemetry-go/sdk/resource"
 	commonpb "go.opentelemetry.io/proto/otlp/common/v1"
 )
 

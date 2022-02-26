@@ -12,19 +12,19 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package export // import "go.opentelemetry.io/otel/sdk/metric/export"
+package export // import "github.com/jhannah-mm/opentelemetry-go/sdk/metric/export"
 
 import (
 	"context"
 	"sync"
 	"time"
 
-	"go.opentelemetry.io/otel/attribute"
-	"go.opentelemetry.io/otel/metric/sdkapi"
-	"go.opentelemetry.io/otel/sdk/instrumentation"
-	"go.opentelemetry.io/otel/sdk/metric/aggregator"
-	"go.opentelemetry.io/otel/sdk/metric/export/aggregation"
-	"go.opentelemetry.io/otel/sdk/resource"
+	"github.com/jhannah-mm/opentelemetry-go/attribute"
+	"github.com/jhannah-mm/opentelemetry-go/metric/sdkapi"
+	"github.com/jhannah-mm/opentelemetry-go/sdk/instrumentation"
+	"github.com/jhannah-mm/opentelemetry-go/sdk/metric/aggregator"
+	"github.com/jhannah-mm/opentelemetry-go/sdk/metric/export/aggregation"
+	"github.com/jhannah-mm/opentelemetry-go/sdk/resource"
 )
 
 // Processor is responsible for deciding which kind of aggregation to

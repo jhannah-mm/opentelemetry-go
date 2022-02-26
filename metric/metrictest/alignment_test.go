@@ -19,7 +19,7 @@ import (
 	"testing"
 	"unsafe"
 
-	"go.opentelemetry.io/otel/internal/internaltest"
+	"github.com/jhannah-mm/opentelemetry-go/internal/internaltest"
 )
 
 // TestMain ensures struct alignment prior to running tests.

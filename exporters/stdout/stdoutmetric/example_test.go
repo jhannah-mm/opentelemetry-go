@@ -18,13 +18,13 @@ import (
 	"context"
 	"log"
 
-	"go.opentelemetry.io/otel/attribute"
-	"go.opentelemetry.io/otel/exporters/stdout/stdoutmetric"
-	"go.opentelemetry.io/otel/metric"
-	"go.opentelemetry.io/otel/metric/global"
-	controller "go.opentelemetry.io/otel/sdk/metric/controller/basic"
-	processor "go.opentelemetry.io/otel/sdk/metric/processor/basic"
-	"go.opentelemetry.io/otel/sdk/metric/selector/simple"
+	"github.com/jhannah-mm/opentelemetry-go/attribute"
+	"github.com/jhannah-mm/opentelemetry-go/exporters/stdout/stdoutmetric"
+	"github.com/jhannah-mm/opentelemetry-go/metric"
+	"github.com/jhannah-mm/opentelemetry-go/metric/global"
+	controller "github.com/jhannah-mm/opentelemetry-go/sdk/metric/controller/basic"
+	processor "github.com/jhannah-mm/opentelemetry-go/sdk/metric/processor/basic"
+	"github.com/jhannah-mm/opentelemetry-go/sdk/metric/selector/simple"
 )
 
 const (

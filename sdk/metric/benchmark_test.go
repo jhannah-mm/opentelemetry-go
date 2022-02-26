@@ -20,13 +20,13 @@ import (
 	"math/rand"
 	"testing"
 
-	"go.opentelemetry.io/otel/attribute"
-	"go.opentelemetry.io/otel/metric"
-	"go.opentelemetry.io/otel/metric/global"
-	"go.opentelemetry.io/otel/metric/sdkapi"
-	sdk "go.opentelemetry.io/otel/sdk/metric"
-	"go.opentelemetry.io/otel/sdk/metric/export"
-	"go.opentelemetry.io/otel/sdk/metric/processor/processortest"
+	"github.com/jhannah-mm/opentelemetry-go/attribute"
+	"github.com/jhannah-mm/opentelemetry-go/metric"
+	"github.com/jhannah-mm/opentelemetry-go/metric/global"
+	"github.com/jhannah-mm/opentelemetry-go/metric/sdkapi"
+	sdk "github.com/jhannah-mm/opentelemetry-go/sdk/metric"
+	"github.com/jhannah-mm/opentelemetry-go/sdk/metric/export"
+	"github.com/jhannah-mm/opentelemetry-go/sdk/metric/processor/processortest"
 )
 
 type benchFixture struct {

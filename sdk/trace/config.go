@@ -12,8 +12,8 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package trace // import "go.opentelemetry.io/otel/sdk/trace"
-import "go.opentelemetry.io/otel/sdk/internal/env"
+package trace // import "github.com/jhannah-mm/opentelemetry-go/sdk/trace"
+import "github.com/jhannah-mm/opentelemetry-go/sdk/internal/env"
 
 // SpanLimits represents the limits of a span.
 type SpanLimits struct {

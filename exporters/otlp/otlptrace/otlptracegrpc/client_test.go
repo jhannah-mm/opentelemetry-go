@@ -29,12 +29,12 @@ import (
 	"google.golang.org/grpc/encoding/gzip"
 	"google.golang.org/grpc/status"
 
-	"go.opentelemetry.io/otel/attribute"
-	"go.opentelemetry.io/otel/exporters/otlp/otlptrace"
-	"go.opentelemetry.io/otel/exporters/otlp/otlptrace/internal/otlptracetest"
-	"go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc"
-	sdktrace "go.opentelemetry.io/otel/sdk/trace"
-	"go.opentelemetry.io/otel/sdk/trace/tracetest"
+	"github.com/jhannah-mm/opentelemetry-go/attribute"
+	"github.com/jhannah-mm/opentelemetry-go/exporters/otlp/otlptrace"
+	"github.com/jhannah-mm/opentelemetry-go/exporters/otlp/otlptrace/internal/otlptracetest"
+	"github.com/jhannah-mm/opentelemetry-go/exporters/otlp/otlptrace/otlptracegrpc"
+	sdktrace "github.com/jhannah-mm/opentelemetry-go/sdk/trace"
+	"github.com/jhannah-mm/opentelemetry-go/sdk/trace/tracetest"
 	commonpb "go.opentelemetry.io/proto/otlp/common/v1"
 )
 

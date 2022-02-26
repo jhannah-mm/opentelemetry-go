@@ -1,78 +1,78 @@
-module go.opentelemetry.io/otel/sdk/metric
+module github.com/jhannah-mm/opentelemetry-go/sdk/metric
 
 go 1.16
 
-replace go.opentelemetry.io/otel => ../..
+replace github.com/jhannah-mm/opentelemetry-go => ../..
 
-replace go.opentelemetry.io/otel/bridge/opencensus => ../../bridge/opencensus
+replace github.com/jhannah-mm/opentelemetry-go/bridge/opencensus => ../../bridge/opencensus
 
-replace go.opentelemetry.io/otel/bridge/opentracing => ../../bridge/opentracing
+replace github.com/jhannah-mm/opentelemetry-go/bridge/opentracing => ../../bridge/opentracing
 
-replace go.opentelemetry.io/otel/example/jaeger => ../../example/jaeger
+replace github.com/jhannah-mm/opentelemetry-go/example/jaeger => ../../example/jaeger
 
-replace go.opentelemetry.io/otel/example/namedtracer => ../../example/namedtracer
+replace github.com/jhannah-mm/opentelemetry-go/example/namedtracer => ../../example/namedtracer
 
-replace go.opentelemetry.io/otel/example/opencensus => ../../example/opencensus
+replace github.com/jhannah-mm/opentelemetry-go/example/opencensus => ../../example/opencensus
 
-replace go.opentelemetry.io/otel/example/otel-collector => ../../example/otel-collector
+replace github.com/jhannah-mm/opentelemetry-go/example/otel-collector => ../../example/otel-collector
 
-replace go.opentelemetry.io/otel/example/prom-collector => ../../example/prom-collector
+replace github.com/jhannah-mm/opentelemetry-go/example/prom-collector => ../../example/prom-collector
 
-replace go.opentelemetry.io/otel/example/prometheus => ../../example/prometheus
+replace github.com/jhannah-mm/opentelemetry-go/example/prometheus => ../../example/prometheus
 
-replace go.opentelemetry.io/otel/example/zipkin => ../../example/zipkin
+replace github.com/jhannah-mm/opentelemetry-go/example/zipkin => ../../example/zipkin
 
-replace go.opentelemetry.io/otel/exporters/prometheus => ../../exporters/prometheus
+replace github.com/jhannah-mm/opentelemetry-go/exporters/prometheus => ../../exporters/prometheus
 
-replace go.opentelemetry.io/otel/exporters/jaeger => ../../exporters/jaeger
+replace github.com/jhannah-mm/opentelemetry-go/exporters/jaeger => ../../exporters/jaeger
 
-replace go.opentelemetry.io/otel/exporters/zipkin => ../../exporters/zipkin
+replace github.com/jhannah-mm/opentelemetry-go/exporters/zipkin => ../../exporters/zipkin
 
-replace go.opentelemetry.io/otel/internal/tools => ../../internal/tools
+replace github.com/jhannah-mm/opentelemetry-go/internal/tools => ../../internal/tools
 
-replace go.opentelemetry.io/otel/metric => ../../metric
+replace github.com/jhannah-mm/opentelemetry-go/metric => ../../metric
 
-replace go.opentelemetry.io/otel/sdk => ../
+replace github.com/jhannah-mm/opentelemetry-go/sdk => ../
 
-replace go.opentelemetry.io/otel/sdk/export/metric => ../export/metric
+replace github.com/jhannah-mm/opentelemetry-go/sdk/export/metric => ../export/metric
 
-replace go.opentelemetry.io/otel/sdk/metric => ./
+replace github.com/jhannah-mm/opentelemetry-go/sdk/metric => ./
 
-replace go.opentelemetry.io/otel/trace => ../../trace
+replace github.com/jhannah-mm/opentelemetry-go/trace => ../../trace
 
 require (
 	github.com/benbjohnson/clock v1.3.0
 	github.com/stretchr/testify v1.7.0
-	go.opentelemetry.io/otel v1.4.1
-	go.opentelemetry.io/otel/internal/metric v0.27.0
-	go.opentelemetry.io/otel/metric v0.27.0
-	go.opentelemetry.io/otel/sdk v1.4.1
+	github.com/jhannah-mm/opentelemetry-go v1.4.1
+	github.com/jhannah-mm/opentelemetry-go/internal/metric v0.27.0
+	github.com/jhannah-mm/opentelemetry-go/metric v0.27.0
+	github.com/jhannah-mm/opentelemetry-go/sdk v1.4.1
 )
 
-replace go.opentelemetry.io/otel/example/passthrough => ../../example/passthrough
+replace github.com/jhannah-mm/opentelemetry-go/example/passthrough => ../../example/passthrough
 
-replace go.opentelemetry.io/otel/exporters/otlp/otlptrace => ../../exporters/otlp/otlptrace
+replace github.com/jhannah-mm/opentelemetry-go/exporters/otlp/otlptrace => ../../exporters/otlp/otlptrace
 
-replace go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc => ../../exporters/otlp/otlptrace/otlptracegrpc
+replace github.com/jhannah-mm/opentelemetry-go/exporters/otlp/otlptrace/otlptracegrpc => ../../exporters/otlp/otlptrace/otlptracegrpc
 
-replace go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracehttp => ../../exporters/otlp/otlptrace/otlptracehttp
+replace github.com/jhannah-mm/opentelemetry-go/exporters/otlp/otlptrace/otlptracehttp => ../../exporters/otlp/otlptrace/otlptracehttp
 
-replace go.opentelemetry.io/otel/internal/metric => ../../internal/metric
+replace github.com/jhannah-mm/opentelemetry-go/internal/metric => ../../internal/metric
 
-replace go.opentelemetry.io/otel/exporters/otlp/otlpmetric => ../../exporters/otlp/otlpmetric
+replace github.com/jhannah-mm/opentelemetry-go/exporters/otlp/otlpmetric => ../../exporters/otlp/otlpmetric
 
-replace go.opentelemetry.io/otel/exporters/otlp/otlpmetric/otlpmetricgrpc => ../../exporters/otlp/otlpmetric/otlpmetricgrpc
+replace github.com/jhannah-mm/opentelemetry-go/exporters/otlp/otlpmetric/otlpmetricgrpc => ../../exporters/otlp/otlpmetric/otlpmetricgrpc
 
-replace go.opentelemetry.io/otel/exporters/stdout/stdoutmetric => ../../exporters/stdout/stdoutmetric
+replace github.com/jhannah-mm/opentelemetry-go/exporters/stdout/stdoutmetric => ../../exporters/stdout/stdoutmetric
 
-replace go.opentelemetry.io/otel/exporters/stdout/stdouttrace => ../../exporters/stdout/stdouttrace
+replace github.com/jhannah-mm/opentelemetry-go/exporters/stdout/stdouttrace => ../../exporters/stdout/stdouttrace
 
-replace go.opentelemetry.io/otel/exporters/otlp/otlpmetric/otlpmetrichttp => ../../exporters/otlp/otlpmetric/otlpmetrichttp
+replace github.com/jhannah-mm/opentelemetry-go/exporters/otlp/otlpmetric/otlpmetrichttp => ../../exporters/otlp/otlpmetric/otlpmetrichttp
 
-replace go.opentelemetry.io/otel/bridge/opencensus/test => ../../bridge/opencensus/test
+replace github.com/jhannah-mm/opentelemetry-go/bridge/opencensus/test => ../../bridge/opencensus/test
 
-replace go.opentelemetry.io/otel/example/fib => ../../example/fib
+replace github.com/jhannah-mm/opentelemetry-go/example/fib => ../../example/fib
 
-replace go.opentelemetry.io/otel/schema => ../../schema
+replace github.com/jhannah-mm/opentelemetry-go/schema => ../../schema
 
-replace go.opentelemetry.io/otel/exporters/otlp/internal/retry => ../../exporters/otlp/internal/retry
+replace github.com/jhannah-mm/opentelemetry-go/exporters/otlp/internal/retry => ../../exporters/otlp/internal/retry

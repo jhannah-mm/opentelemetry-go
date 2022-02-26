@@ -19,7 +19,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"go.opentelemetry.io/otel/attribute"
+	"github.com/jhannah-mm/opentelemetry-go/attribute"
 )
 
 var testSlice = []attribute.KeyValue{

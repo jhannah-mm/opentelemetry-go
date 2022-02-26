@@ -25,16 +25,16 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"go.opentelemetry.io/otel"
-	"go.opentelemetry.io/otel/attribute"
-	"go.opentelemetry.io/otel/metric"
-	controller "go.opentelemetry.io/otel/sdk/metric/controller/basic"
-	"go.opentelemetry.io/otel/sdk/metric/controller/controllertest"
-	"go.opentelemetry.io/otel/sdk/metric/export"
-	"go.opentelemetry.io/otel/sdk/metric/export/aggregation"
-	processor "go.opentelemetry.io/otel/sdk/metric/processor/basic"
-	"go.opentelemetry.io/otel/sdk/metric/processor/processortest"
-	"go.opentelemetry.io/otel/sdk/resource"
+	"github.com/jhannah-mm/opentelemetry-go"
+	"github.com/jhannah-mm/opentelemetry-go/attribute"
+	"github.com/jhannah-mm/opentelemetry-go/metric"
+	controller "github.com/jhannah-mm/opentelemetry-go/sdk/metric/controller/basic"
+	"github.com/jhannah-mm/opentelemetry-go/sdk/metric/controller/controllertest"
+	"github.com/jhannah-mm/opentelemetry-go/sdk/metric/export"
+	"github.com/jhannah-mm/opentelemetry-go/sdk/metric/export/aggregation"
+	processor "github.com/jhannah-mm/opentelemetry-go/sdk/metric/processor/basic"
+	"github.com/jhannah-mm/opentelemetry-go/sdk/metric/processor/processortest"
+	"github.com/jhannah-mm/opentelemetry-go/sdk/resource"
 )
 
 var testResource = resource.NewSchemaless(attribute.String("R", "V"))

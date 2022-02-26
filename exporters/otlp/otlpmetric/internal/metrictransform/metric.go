@@ -14,7 +14,7 @@
 
 // Package metrictransform provides translations for opentelemetry-go concepts and
 // structures to otlp structures.
-package metrictransform // import "go.opentelemetry.io/otel/exporters/otlp/otlpmetric/internal/metrictransform"
+package metrictransform // import "github.com/jhannah-mm/opentelemetry-go/exporters/otlp/otlpmetric/internal/metrictransform"
 
 import (
 	"context"
@@ -24,11 +24,11 @@ import (
 	"sync"
 	"time"
 
-	"go.opentelemetry.io/otel/metric/number"
-	"go.opentelemetry.io/otel/sdk/instrumentation"
-	"go.opentelemetry.io/otel/sdk/metric/export"
-	"go.opentelemetry.io/otel/sdk/metric/export/aggregation"
-	"go.opentelemetry.io/otel/sdk/resource"
+	"github.com/jhannah-mm/opentelemetry-go/metric/number"
+	"github.com/jhannah-mm/opentelemetry-go/sdk/instrumentation"
+	"github.com/jhannah-mm/opentelemetry-go/sdk/metric/export"
+	"github.com/jhannah-mm/opentelemetry-go/sdk/metric/export/aggregation"
+	"github.com/jhannah-mm/opentelemetry-go/sdk/resource"
 	commonpb "go.opentelemetry.io/proto/otlp/common/v1"
 	metricpb "go.opentelemetry.io/proto/otlp/metrics/v1"
 )

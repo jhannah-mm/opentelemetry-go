@@ -12,15 +12,15 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package registry // import "go.opentelemetry.io/otel/internal/metric/registry"
+package registry // import "github.com/jhannah-mm/opentelemetry-go/internal/metric/registry"
 
 import (
 	"context"
 	"fmt"
 	"sync"
 
-	"go.opentelemetry.io/otel/attribute"
-	"go.opentelemetry.io/otel/metric/sdkapi"
+	"github.com/jhannah-mm/opentelemetry-go/attribute"
+	"github.com/jhannah-mm/opentelemetry-go/metric/sdkapi"
 )
 
 // UniqueInstrumentMeterImpl implements the metric.MeterImpl interface, adding

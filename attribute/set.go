@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package attribute // import "go.opentelemetry.io/otel/attribute"
+package attribute // import "github.com/jhannah-mm/opentelemetry-go/attribute"
 
 import (
 	"encoding/json"

@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package otlpmetrictest // import "go.opentelemetry.io/otel/exporters/otlp/otlpmetric/internal/otlpmetrictest"
+package otlpmetrictest // import "github.com/jhannah-mm/opentelemetry-go/exporters/otlp/otlpmetric/internal/otlpmetrictest"
 
 import (
 	"context"
@@ -21,7 +21,7 @@ import (
 	"testing"
 	"time"
 
-	"go.opentelemetry.io/otel/exporters/otlp/otlpmetric"
+	"github.com/jhannah-mm/opentelemetry-go/exporters/otlp/otlpmetric"
 )
 
 func RunExporterShutdownTest(t *testing.T, factory func() otlpmetric.Client) {

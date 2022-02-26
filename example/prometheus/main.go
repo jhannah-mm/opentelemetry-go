@@ -22,15 +22,15 @@ import (
 	"sync"
 	"time"
 
-	"go.opentelemetry.io/otel/attribute"
-	"go.opentelemetry.io/otel/exporters/prometheus"
-	"go.opentelemetry.io/otel/metric"
-	"go.opentelemetry.io/otel/metric/global"
-	"go.opentelemetry.io/otel/sdk/metric/aggregator/histogram"
-	controller "go.opentelemetry.io/otel/sdk/metric/controller/basic"
-	"go.opentelemetry.io/otel/sdk/metric/export/aggregation"
-	processor "go.opentelemetry.io/otel/sdk/metric/processor/basic"
-	selector "go.opentelemetry.io/otel/sdk/metric/selector/simple"
+	"github.com/jhannah-mm/opentelemetry-go/attribute"
+	"github.com/jhannah-mm/opentelemetry-go/exporters/prometheus"
+	"github.com/jhannah-mm/opentelemetry-go/metric"
+	"github.com/jhannah-mm/opentelemetry-go/metric/global"
+	"github.com/jhannah-mm/opentelemetry-go/sdk/metric/aggregator/histogram"
+	controller "github.com/jhannah-mm/opentelemetry-go/sdk/metric/controller/basic"
+	"github.com/jhannah-mm/opentelemetry-go/sdk/metric/export/aggregation"
+	processor "github.com/jhannah-mm/opentelemetry-go/sdk/metric/processor/basic"
+	selector "github.com/jhannah-mm/opentelemetry-go/sdk/metric/selector/simple"
 )
 
 var (

@@ -22,7 +22,7 @@ import (
 	"github.com/google/go-cmp/cmp"
 	"github.com/stretchr/testify/assert"
 
-	"go.opentelemetry.io/otel/attribute"
+	"github.com/jhannah-mm/opentelemetry-go/attribute"
 )
 
 func TestSpanContextIsValid(t *testing.T) {

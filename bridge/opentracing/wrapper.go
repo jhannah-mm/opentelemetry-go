@@ -12,13 +12,13 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package opentracing // import "go.opentelemetry.io/otel/bridge/opentracing"
+package opentracing // import "github.com/jhannah-mm/opentelemetry-go/bridge/opentracing"
 
 import (
 	"context"
 
-	"go.opentelemetry.io/otel/bridge/opentracing/migration"
-	"go.opentelemetry.io/otel/trace"
+	"github.com/jhannah-mm/opentelemetry-go/bridge/opentracing/migration"
+	"github.com/jhannah-mm/opentelemetry-go/trace"
 )
 
 type WrapperTracerProvider struct {

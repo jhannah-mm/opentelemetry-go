@@ -12,42 +12,42 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package aggregation // import "go.opentelemetry.io/otel/sdk/export/metric/aggregation"
+package aggregation // import "github.com/jhannah-mm/opentelemetry-go/sdk/export/metric/aggregation"
 
 import (
-	"go.opentelemetry.io/otel/sdk/metric/export/aggregation"
+	"github.com/jhannah-mm/opentelemetry-go/sdk/metric/export/aggregation"
 )
 
-// Deprecated: use module "go.opentelemetry.io/otel/sdk/metric/export/aggregation"
+// Deprecated: use module "github.com/jhannah-mm/opentelemetry-go/sdk/metric/export/aggregation"
 type Temporality = aggregation.Temporality
 
 const (
-	// Deprecated: use module "go.opentelemetry.io/otel/sdk/metric/export/aggregation"
+	// Deprecated: use module "github.com/jhannah-mm/opentelemetry-go/sdk/metric/export/aggregation"
 	CumulativeTemporality = aggregation.CumulativeTemporality
 
-	// Deprecated: use module "go.opentelemetry.io/otel/sdk/metric/export/aggregation"
+	// Deprecated: use module "github.com/jhannah-mm/opentelemetry-go/sdk/metric/export/aggregation"
 	DeltaTemporality = aggregation.DeltaTemporality
 )
 
-// Deprecated: use module "go.opentelemetry.io/otel/sdk/metric/export/aggregation"
+// Deprecated: use module "github.com/jhannah-mm/opentelemetry-go/sdk/metric/export/aggregation"
 func ConstantTemporalitySelector(t Temporality) TemporalitySelector {
 	return aggregation.ConstantTemporalitySelector(t)
 }
 
-// Deprecated: use module "go.opentelemetry.io/otel/sdk/metric/export/aggregation"
+// Deprecated: use module "github.com/jhannah-mm/opentelemetry-go/sdk/metric/export/aggregation"
 func CumulativeTemporalitySelector() TemporalitySelector {
 	return aggregation.CumulativeTemporalitySelector()
 }
 
-// Deprecated: use module "go.opentelemetry.io/otel/sdk/metric/export/aggregation"
+// Deprecated: use module "github.com/jhannah-mm/opentelemetry-go/sdk/metric/export/aggregation"
 func DeltaTemporalitySelector() TemporalitySelector {
 	return aggregation.DeltaTemporalitySelector()
 }
 
-// Deprecated: use module "go.opentelemetry.io/otel/sdk/metric/export/aggregation"
+// Deprecated: use module "github.com/jhannah-mm/opentelemetry-go/sdk/metric/export/aggregation"
 func StatelessTemporalitySelector() TemporalitySelector {
 	return aggregation.StatelessTemporalitySelector()
 }
 
-// Deprecated: use module "go.opentelemetry.io/otel/sdk/metric/export/aggregation"
+// Deprecated: use module "github.com/jhannah-mm/opentelemetry-go/sdk/metric/export/aggregation"
 type TemporalitySelector = aggregation.TemporalitySelector

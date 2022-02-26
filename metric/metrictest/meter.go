@@ -12,18 +12,18 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package metrictest // import "go.opentelemetry.io/otel/metric/metrictest"
+package metrictest // import "github.com/jhannah-mm/opentelemetry-go/metric/metrictest"
 
 import (
 	"context"
 	"sync"
 	"testing"
 
-	"go.opentelemetry.io/otel/attribute"
-	internalmetric "go.opentelemetry.io/otel/internal/metric"
-	"go.opentelemetry.io/otel/metric"
-	"go.opentelemetry.io/otel/metric/number"
-	"go.opentelemetry.io/otel/metric/sdkapi"
+	"github.com/jhannah-mm/opentelemetry-go/attribute"
+	internalmetric "github.com/jhannah-mm/opentelemetry-go/internal/metric"
+	"github.com/jhannah-mm/opentelemetry-go/metric"
+	"github.com/jhannah-mm/opentelemetry-go/metric/number"
+	"github.com/jhannah-mm/opentelemetry-go/metric/sdkapi"
 )
 
 type (

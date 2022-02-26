@@ -12,9 +12,9 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package stdoutmetric // import "go.opentelemetry.io/otel/exporters/stdout/stdoutmetric"
+package stdoutmetric // import "github.com/jhannah-mm/opentelemetry-go/exporters/stdout/stdoutmetric"
 
-import "go.opentelemetry.io/otel/sdk/metric/export"
+import "github.com/jhannah-mm/opentelemetry-go/sdk/metric/export"
 
 type Exporter struct {
 	metricExporter

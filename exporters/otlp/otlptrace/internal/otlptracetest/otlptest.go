@@ -12,17 +12,17 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package otlptracetest // import "go.opentelemetry.io/otel/exporters/otlp/otlptrace/internal/otlptracetest"
+package otlptracetest // import "github.com/jhannah-mm/opentelemetry-go/exporters/otlp/otlptrace/internal/otlptracetest"
 
 import (
 	"context"
 	"testing"
 	"time"
 
-	"go.opentelemetry.io/otel/attribute"
-	"go.opentelemetry.io/otel/exporters/otlp/otlptrace"
-	"go.opentelemetry.io/otel/sdk/resource"
-	sdktrace "go.opentelemetry.io/otel/sdk/trace"
+	"github.com/jhannah-mm/opentelemetry-go/attribute"
+	"github.com/jhannah-mm/opentelemetry-go/exporters/otlp/otlptrace"
+	"github.com/jhannah-mm/opentelemetry-go/sdk/resource"
+	sdktrace "github.com/jhannah-mm/opentelemetry-go/sdk/trace"
 	commonpb "go.opentelemetry.io/proto/otlp/common/v1"
 )
 

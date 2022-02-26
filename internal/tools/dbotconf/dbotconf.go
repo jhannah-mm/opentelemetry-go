@@ -26,7 +26,7 @@ import (
 	"strings"
 	"text/template"
 
-	"go.opentelemetry.io/otel/internal/tools"
+	"github.com/jhannah-mm/opentelemetry-go/internal/tools"
 	"golang.org/x/mod/modfile"
 )
 

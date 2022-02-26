@@ -29,10 +29,10 @@ import (
 	"google.golang.org/grpc/encoding/gzip"
 	"google.golang.org/grpc/status"
 
-	"go.opentelemetry.io/otel/exporters/otlp/otlpmetric"
-	"go.opentelemetry.io/otel/exporters/otlp/otlpmetric/internal/otlpmetrictest"
-	"go.opentelemetry.io/otel/exporters/otlp/otlpmetric/otlpmetricgrpc"
-	"go.opentelemetry.io/otel/sdk/resource"
+	"github.com/jhannah-mm/opentelemetry-go/exporters/otlp/otlpmetric"
+	"github.com/jhannah-mm/opentelemetry-go/exporters/otlp/otlpmetric/internal/otlpmetrictest"
+	"github.com/jhannah-mm/opentelemetry-go/exporters/otlp/otlpmetric/otlpmetricgrpc"
+	"github.com/jhannah-mm/opentelemetry-go/sdk/resource"
 )
 
 var (

@@ -22,12 +22,12 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	ottest "go.opentelemetry.io/otel/internal/internaltest"
-	"go.opentelemetry.io/otel/sdk/internal/env"
+	ottest "github.com/jhannah-mm/opentelemetry-go/internal/internaltest"
+	"github.com/jhannah-mm/opentelemetry-go/sdk/internal/env"
 
 	"github.com/stretchr/testify/assert"
 
-	"go.opentelemetry.io/otel/trace"
+	"github.com/jhannah-mm/opentelemetry-go/trace"
 )
 
 type basicSpanProcesor struct {

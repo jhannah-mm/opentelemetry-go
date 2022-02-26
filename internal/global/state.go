@@ -12,14 +12,14 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package global // import "go.opentelemetry.io/otel/internal/global"
+package global // import "github.com/jhannah-mm/opentelemetry-go/internal/global"
 
 import (
 	"sync"
 	"sync/atomic"
 
-	"go.opentelemetry.io/otel/propagation"
-	"go.opentelemetry.io/otel/trace"
+	"github.com/jhannah-mm/opentelemetry-go/propagation"
+	"github.com/jhannah-mm/opentelemetry-go/trace"
 )
 
 type (

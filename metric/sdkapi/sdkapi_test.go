@@ -19,7 +19,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"go.opentelemetry.io/otel/metric/number"
+	"github.com/jhannah-mm/opentelemetry-go/metric/number"
 )
 
 func TestMeasurementGetters(t *testing.T) {

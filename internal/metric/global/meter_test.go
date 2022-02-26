@@ -21,13 +21,13 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"go.opentelemetry.io/otel/attribute"
-	"go.opentelemetry.io/otel/internal/metric/global"
-	"go.opentelemetry.io/otel/metric"
-	metricglobal "go.opentelemetry.io/otel/metric/global"
-	"go.opentelemetry.io/otel/metric/metrictest"
-	"go.opentelemetry.io/otel/metric/number"
-	"go.opentelemetry.io/otel/metric/sdkapi"
+	"github.com/jhannah-mm/opentelemetry-go/attribute"
+	"github.com/jhannah-mm/opentelemetry-go/internal/metric/global"
+	"github.com/jhannah-mm/opentelemetry-go/metric"
+	metricglobal "github.com/jhannah-mm/opentelemetry-go/metric/global"
+	"github.com/jhannah-mm/opentelemetry-go/metric/metrictest"
+	"github.com/jhannah-mm/opentelemetry-go/metric/number"
+	"github.com/jhannah-mm/opentelemetry-go/metric/sdkapi"
 )
 
 var Must = metric.Must

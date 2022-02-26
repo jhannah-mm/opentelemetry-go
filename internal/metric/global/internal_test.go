@@ -18,8 +18,8 @@ import (
 	"os"
 	"testing"
 
-	ottest "go.opentelemetry.io/otel/internal/internaltest"
-	"go.opentelemetry.io/otel/internal/metric/global"
+	ottest "github.com/jhannah-mm/opentelemetry-go/internal/internaltest"
+	"github.com/jhannah-mm/opentelemetry-go/internal/metric/global"
 )
 
 // Ensure struct alignment prior to running tests.

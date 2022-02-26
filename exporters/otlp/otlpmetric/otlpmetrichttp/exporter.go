@@ -12,12 +12,12 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package otlpmetrichttp // import "go.opentelemetry.io/otel/exporters/otlp/otlpmetric/otlpmetrichttp"
+package otlpmetrichttp // import "github.com/jhannah-mm/opentelemetry-go/exporters/otlp/otlpmetric/otlpmetrichttp"
 
 import (
 	"context"
 
-	"go.opentelemetry.io/otel/exporters/otlp/otlpmetric"
+	"github.com/jhannah-mm/opentelemetry-go/exporters/otlp/otlpmetric"
 )
 
 // New constructs a new Exporter and starts it.

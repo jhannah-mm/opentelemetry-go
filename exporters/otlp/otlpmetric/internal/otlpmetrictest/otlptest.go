@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package otlpmetrictest // import "go.opentelemetry.io/otel/exporters/otlp/otlpmetric/internal/otlpmetrictest"
+package otlpmetrictest // import "github.com/jhannah-mm/opentelemetry-go/exporters/otlp/otlpmetric/internal/otlpmetrictest"
 
 import (
 	"context"
@@ -23,15 +23,15 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"go.opentelemetry.io/otel/attribute"
-	"go.opentelemetry.io/otel/exporters/otlp/otlpmetric"
-	"go.opentelemetry.io/otel/metric"
-	"go.opentelemetry.io/otel/metric/number"
-	"go.opentelemetry.io/otel/metric/sdkapi"
-	controller "go.opentelemetry.io/otel/sdk/metric/controller/basic"
-	"go.opentelemetry.io/otel/sdk/metric/export/aggregation"
-	processor "go.opentelemetry.io/otel/sdk/metric/processor/basic"
-	"go.opentelemetry.io/otel/sdk/metric/selector/simple"
+	"github.com/jhannah-mm/opentelemetry-go/attribute"
+	"github.com/jhannah-mm/opentelemetry-go/exporters/otlp/otlpmetric"
+	"github.com/jhannah-mm/opentelemetry-go/metric"
+	"github.com/jhannah-mm/opentelemetry-go/metric/number"
+	"github.com/jhannah-mm/opentelemetry-go/metric/sdkapi"
+	controller "github.com/jhannah-mm/opentelemetry-go/sdk/metric/controller/basic"
+	"github.com/jhannah-mm/opentelemetry-go/sdk/metric/export/aggregation"
+	processor "github.com/jhannah-mm/opentelemetry-go/sdk/metric/processor/basic"
+	"github.com/jhannah-mm/opentelemetry-go/sdk/metric/selector/simple"
 	metricpb "go.opentelemetry.io/proto/otlp/metrics/v1"
 )
 

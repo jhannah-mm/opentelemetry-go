@@ -57,4 +57,4 @@ func setupMetrics(exporter export.Exporter) (stop func()) {
         global.SetMeterProvider(controller.Provider())
         return controller.Stop
 */
-package reducer // import "go.opentelemetry.io/otel/sdk/metric/processor/reducer"
+package reducer // import "github.com/jhannah-mm/opentelemetry-go/sdk/metric/processor/reducer"
